@@ -1,4 +1,4 @@
-# 컴퓨터언어
+## 컴퓨터언어
 
 > 어셈블리어: 저수준의 언어
 -->명령을 내릴 때 디테일하게 내려야 됨
@@ -10,12 +10,12 @@
 ---2) 많은 사람들이 사용
 ---3) 오픈 소스가 많아서 많은 것을 할 수 있다
 
-# 프로그래밍 언어 3형식
+## 프로그래밍 언어 3형식
 > 저장
 > 조건(if)
 > 반복(while,for)
 
-# 파이썬
+## 파이썬
 > 저장 
 - 변수: 메모리에 값을 저장하는 것
 - 무엇을 저장? 숫자, 글자, 참/거짓
@@ -58,12 +58,12 @@
 > for i in range (0,n):
 >> 0부터 n-1만큼 반복
 
-# import requests
+### import requests
 - requests.get(주소)
 - requests.get(주소).text
 - requests.get(주소).status_code : 상태 반환. 200이면 정상적으로 응답한 것
 
-# from bs4 import BeautifulSoup
+### from bs4 import BeautifulSoup
 - Response한 걸 처리하는 클래스
 - BeautifulSoup(문서)
 - BeautifulSoup(경로): 경로 안에 selector 들어가면 문서 안에 있는 특정 내용을 뽑아줘
@@ -75,10 +75,10 @@ response = requests.get(url)
 data = BeautifulSoup(response.text,lxml)
 print(data.select_one('가져올 데이터의 selector).text)
 
-# JSON(JavaScript Object Notation)
+### JSON(JavaScript Object Notation)
 - 데이터만을 주고 받기 위한 표기법
 
-# API(Application Programming Interface)
+### API(Application Programming Interface)
 - OS와 응용프로그램 사이 데이터 주고 받기 위해 약속한 것, 규격을 정해놓은 것
 - 실시간 업데이트 되는 정보를 활용하기 위해서는 API 필요
 - 서비스와 서비스 간의 프로그래밍을 통한 대화방식
